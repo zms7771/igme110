@@ -2,14 +2,23 @@
 
 * {font-family: 'Jomolhari', serif;}
 
-img {float : left; padding-right: 2em; height: 300px }
+img {
+
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
+}
 
 body{
     background-color: #888;
 }
 
 h1{
-    width:1050px;
+ 
+    text-align:center;
 }
 
 #stars{
@@ -25,6 +34,22 @@ h1{
 {
     background-color: aqua
 }
+
+p{
+text-align: center;
+padding-left: 300px;
+padding-right: 300px;
+background-color:aqua;
+
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -56,4 +81,34 @@ ul{
 .topnav a.active {
     background-color: rgb(255, 0, 0);
     color: white;
+  }
+
+  h2{
+      text-align:center;
+    
+  }
+
+  #p5{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: white;
+  }
+
+  #p5e
+  {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color:white;
+  }
+
+  #stripes
+  {
+      background-image: url("images/persona4background.jpg")
+  }
+
+  #blueblack
+  {
+    background-image: url("images/persona3background.png")
   }
